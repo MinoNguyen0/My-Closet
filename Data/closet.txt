@@ -1,0 +1,66 @@
+# My closet: one clothing item per line. Lines starting with # are ignored.
+#
+# Type      | Name | Main colour (R,G,B) | Picture | then the extra details for that type:
+#   Shirt     | ... | sleeve (Short / Long / Sleeveless)           | patterned (yes / no)
+#   Pants     | ... | length (Shorts / Cropped / Full)             | formal (yes / no)
+#   Skirt     | ... | length (Mini / Midi / Maxi)                  | pleated (yes / no)
+#   Shoes     | ... | heel height in cm                            | type (Sneakers / Boots / Heels / Flats / Oxfords / Sandals)
+#   Accessory | ... | type (Hat / Bag / Watch / Necklace / Bracelet / Earrings / Belt / HairClip)
+
+# ---------- Tops ----------
+Shirt | Gingham Ribbon Top         | 146,147,142 | Resources/images/tops/gingham_ribbon_top.png         | Short      | yes
+Shirt | Charcoal Button Shirt      | 76,88,95    | Resources/images/tops/charcoal_button_shirt.png      | Short      | no
+Shirt | Plaid Button Shirt         | 101,98,99   | Resources/images/tops/plaid_button_shirt.png         | Short      | yes
+Shirt | Navy Lace Tee              | 18,23,35    | Resources/images/tops/navy_lace_tee.png              | Short      | no
+Shirt | Navy Striped Tee           | 58,57,59    | Resources/images/tops/navy_striped_tee.png           | Short      | yes
+Shirt | Black Plaid Blouse         | 28,31,38    | Resources/images/tops/black_plaid_blouse.png         | Short      | yes
+Shirt | Pink Plaid Cami            | 113,98,91   | Resources/images/tops/pink_plaid_cami.png            | Sleeveless | yes
+Shirt | Navy Lace Henley           | 36,41,52    | Resources/images/tops/navy_lace_henley.png           | Short      | no
+Shirt | Vest Layer Blouse          | 129,118,97  | Resources/images/tops/vest_layer_blouse.png          | Short      | no
+Shirt | Brown Sheer Blouse         | 70,64,59    | Resources/images/tops/brown_sheer_blouse.png         | Short      | no
+Shirt | Light Blue Pinstripe Shirt | 133,136,140 | Resources/images/tops/light_blue_pinstripe_shirt.png | Short      | yes
+
+# ---------- Skirts ----------
+Skirt | Grey Plaid Button Skirt    | 80,81,80    | Resources/images/bottoms/grey_plaid_button_skirt.png  | Mini | yes
+Skirt | Black Pleated Skirt        | 23,23,23    | Resources/images/bottoms/black_pleated_skirt.png      | Mini | yes
+Skirt | Brown Plaid Skirt          | 74,64,53    | Resources/images/bottoms/brown_plaid_skirt.png        | Mini | no
+Skirt | White Ruffle Skirt         | 211,207,203 | Resources/images/bottoms/white_ruffle_skirt.png       | Mini | no
+Skirt | Black Belted Denim Skirt   | 45,47,46    | Resources/images/bottoms/black_belted_denim_skirt.png | Mini | no
+
+# ---------- Pants and shorts ----------
+Pants | Vintage Wide Jeans         | 53,61,66    | Resources/images/bottoms/vintage_wide_jeans.png       | Full   | no
+Pants | Dark Wide Jeans            | 28,32,36    | Resources/images/bottoms/dark_wide_jeans.png          | Full   | no
+Pants | Grey Pinstripe Trousers    | 63,62,64    | Resources/images/bottoms/grey_pinstripe_trousers.png  | Full   | yes
+Pants | Grey Wide Sweatpants       | 186,188,190 | Resources/images/bottoms/grey_wide_sweatpants.png     | Full   | no
+Pants | Cuffed Denim Shorts        | 53,59,64    | Resources/images/bottoms/cuffed_denim_shorts.png      | Shorts | no
+Pants | Pinstripe Shorts           | 63,66,67    | Resources/images/bottoms/pinstripe_shorts.png         | Shorts | yes
+
+# ---------- Shoes (heel heights are estimates) ----------
+Shoes | Black Ballet Flats         | 36,29,34    | Resources/images/shoes/black_ballet_flats.png         | 0 | Flats
+Shoes | Black Buckle Boots         | 29,29,29    | Resources/images/shoes/black_buckle_boots.png         | 6 | Boots
+Shoes | Black Platform Oxfords     | 34,32,27    | Resources/images/shoes/black_platform_oxfords.png     | 4 | Oxfords
+Shoes | Navy Samba Sneakers        | 33,35,43    | Resources/images/shoes/navy_samba_sneakers.png        | 0 | Sneakers
+Shoes | White 530 Sneakers         | 210,210,210 | Resources/images/shoes/white_530_sneakers.png         | 0 | Sneakers
+Shoes | Burgundy Gazelle Sneakers  | 85,44,48    | Resources/images/shoes/burgundy_gazelle_sneakers.png  | 0 | Sneakers
+Shoes | Brown Mary Jane Heels      | 74,58,52    | Resources/images/shoes/brown_mary_jane_heels.png      | 9 | Heels
+Shoes | Black Mary Jane Heels      | 36,36,37    | Resources/images/shoes/black_mary_jane_heels.png      | 8 | Heels
+
+# ---------- Accessories ----------
+Accessory | Polka Dot Hair Clips    | 112,110,116 | Resources/images/accessories/polka_dot_hair_clips.png    | HairClip
+Accessory | Black Leather Cap       | 36,35,38    | Resources/images/accessories/black_leather_cap.png       | Hat
+Accessory | Star Spiral Necklace    | 114,112,112 | Resources/images/accessories/star_spiral_necklace.png    | Necklace
+Accessory | Cross Chain Necklace    | 136,131,129 | Resources/images/accessories/cross_chain_necklace.png    | Necklace
+Accessory | Star Earrings           | 101,100,85  | Resources/images/accessories/star_earrings.png           | Earrings
+Accessory | Spiral Earrings         | 194,192,192 | Resources/images/accessories/spiral_earrings.png         | Earrings
+Accessory | Fleur de Lis Earrings   | 162,160,159 | Resources/images/accessories/fleur_de_lis_earrings.png   | Earrings
+Accessory | Star Buckle Belt        | 44,44,44    | Resources/images/accessories/star_buckle_belt.png        | Belt
+Accessory | Rhinestone Western Belt | 70,64,60    | Resources/images/accessories/rhinestone_western_belt.png | Belt
+Accessory | Leather Stack Bracelets | 44,43,43    | Resources/images/accessories/leather_stack_bracelets.png | Bracelet
+Accessory | Italian Charm Bracelet  | 131,129,123 | Resources/images/accessories/italian_charm_bracelet.png  | Bracelet
+Accessory | Pearl Star Bracelet     | 207,207,207 | Resources/images/accessories/pearl_star_bracelet.png     | Bracelet
+Accessory | Silver Oval Watch       | 191,185,180 | Resources/images/accessories/silver_oval_watch.png       | Watch
+Accessory | Star Leather Watch      | 82,56,39    | Resources/images/accessories/star_leather_watch.png      | Watch
+Accessory | Brown Leather Handbag   | 58,46,44    | Resources/images/accessories/brown_leather_handbag.png   | Bag
+Accessory | Black Studded Bag       | 28,28,30    | Resources/images/accessories/black_studded_bag.png       | Bag
+Accessory | Brown Polka Dot Bag     | 44,33,31    | Resources/images/accessories/brown_polka_dot_bag.png     | Bag
+Accessory | Silver Crystal Glasses  | 204,204,204 | Resources/images/accessories/silver_crystal_glasses.png | Glasses
